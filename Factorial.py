@@ -5,6 +5,6 @@ def fact(n):
         return n*fact(n-1)
 
 if __name__ == '__main__':
-    n = int(input().rstrip())
+    n = int(input("Enter a number : ").rstrip())
     result = fact(n)
     print(f'Factorial of {n} = {result}')
